@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrianglePopUpRectangle'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'triangle pop or up rectangle.'
 
 # This description is used to generate tags and improve search results.
