@@ -20,6 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'TrianglePopUpRectangle'
 ```
 
+## Function Declaration
+TrianglePopUpRectangle 实现了矩形尖角样式，类似回复
+
 ## Author
 
 info3781@gmail.com
