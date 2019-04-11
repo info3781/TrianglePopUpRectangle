@@ -22,7 +22,7 @@ pod 'TrianglePopUpRectangle'
 
 ## Author
 
-info3781@gmail.com, zhenghailin@leoao.com
+info3781@gmail.com
 
 ## License
 
