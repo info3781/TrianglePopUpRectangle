@@ -1,0 +1,6 @@
+framework module TrianglePopUpRectangle {
+  umbrella header "TrianglePopUpRectangle-umbrella.h"
+
+  export *
+  module * { export * }
+}

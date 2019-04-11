@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C509FCB077AA39775E00C5534C442FE /* TrianglePopUpRectangle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 968CAC81F263175B89A3B6CF35817BE3 /* TrianglePopUpRectangle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F122513C749230A66C202B26B11E9DE /* Pods-TrianglePopUpRectangle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803F2042308560D04550EA8FD903B88D /* Pods-TrianglePopUpRectangle_Example-dummy.m */; };
+		3CC4B489C38F2AF92E9EC62942EED415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		65F6D88BFC036B9C71A19EB8188FDBE7 /* Pods-TrianglePopUpRectangle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7C936427C41B81AE21375A773C2A5C /* Pods-TrianglePopUpRectangle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67283A486BE2822EF34315F4BB610CCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7D4D60FD15E975A5CFB9CED331BCCE94 /* TrianglePopUpRectangle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2DDBF392A34DA38103F58EFA4471D /* TrianglePopUpRectangle-dummy.m */; };
+		807AE3016CEB26757F1A3A45DBEB80ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BA7AEB63225F2D21003B7907 /* LKTrianglePopUpRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7AEB61225F2D21003B7907 /* LKTrianglePopUpRectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA7AEB64225F2D21003B7907 /* LKTrianglePopUpRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7AEB62225F2D21003B7907 /* LKTrianglePopUpRectangle.m */; };
+		BA7AEB67225F2D6C003B7907 /* NSString+LKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7AEB65225F2D6C003B7907 /* NSString+LKAdd.h */; };
+		BA7AEB68225F2D6C003B7907 /* NSString+LKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7AEB66225F2D6C003B7907 /* NSString+LKAdd.m */; };
+		BA7AEB6B225F2D9C003B7907 /* UIColor+LKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7AEB69225F2D9C003B7907 /* UIColor+LKAdd.h */; };
+		BA7AEB6C225F2D9C003B7907 /* UIColor+LKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7AEB6A225F2D9C003B7907 /* UIColor+LKAdd.m */; };
+		BA7AEB70225F2FD1003B7907 /* TrianglePopUpRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7AEB6F225F2FB3003B7907 /* TrianglePopUpRectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB6FB873AE1AEC4BA85A79DF2C33F5E1 /* Pods-TrianglePopUpRectangle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51E972DB14C86D97F845378E1C977AD /* Pods-TrianglePopUpRectangle_Tests-dummy.m */; };
+		DFFC08A0A29B59465CC1B3B3972D5103 /* Pods-TrianglePopUpRectangle_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCF6A945BE255F63CFE4F5FB2EF3C3C /* Pods-TrianglePopUpRectangle_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D540EB9C9AF9AE4D27C1D59B469C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8991FC04793280651ADE2CF20B83DB28;
+			remoteInfo = TrianglePopUpRectangle;
+		};
+		9066F906A14E9ACB08D503F48DE3C6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808AFE9CAF6FEF8A11A9303364E3F6FB;
+			remoteInfo = "Pods-TrianglePopUpRectangle_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED5C67E4AC78E60FB018A0A129999E0 /* Pods-TrianglePopUpRectangle_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglePopUpRectangle_Example-resources.sh"; sourceTree = "<group>"; };
+		0EE7A6152DD2637EEC62E1D332558474 /* Pods_TrianglePopUpRectangle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrianglePopUpRectangle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCCBF01A2C4C00C77E09FCD73122B3A /* TrianglePopUpRectangle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TrianglePopUpRectangle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3BA2DDBF392A34DA38103F58EFA4471D /* TrianglePopUpRectangle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrianglePopUpRectangle-dummy.m"; sourceTree = "<group>"; };
+		428987424E0B8904652D426879FC1FE2 /* Pods-TrianglePopUpRectangle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrianglePopUpRectangle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A41976EB782A4F26723E8BDA5869615 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5692E9C95F56FC9889EACC021F32A01C /* TrianglePopUpRectangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrianglePopUpRectangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7C936427C41B81AE21375A773C2A5C /* Pods-TrianglePopUpRectangle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrianglePopUpRectangle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		61B96F73FD6503095C7A89C63055A27C /* Pods-TrianglePopUpRectangle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglePopUpRectangle_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6493F26FCCEEC5CCC5A1D40131935344 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8FBF2F3E041CEFDEA41359B22F841D /* Pods-TrianglePopUpRectangle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglePopUpRectangle_Tests-resources.sh"; sourceTree = "<group>"; };
+		733D3CAAB38BF46ABBF07DFFE4635F4D /* Pods-TrianglePopUpRectangle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrianglePopUpRectangle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75715D897505EA9C7B1D7BAA3E07537A /* Pods_TrianglePopUpRectangle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrianglePopUpRectangle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803F2042308560D04550EA8FD903B88D /* Pods-TrianglePopUpRectangle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrianglePopUpRectangle_Example-dummy.m"; sourceTree = "<group>"; };
+		8633287F370E4344E56B4555EAB21B27 /* Pods-TrianglePopUpRectangle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrianglePopUpRectangle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89CCDC344B657E9A0BDC74CE3AA37613 /* Pods-TrianglePopUpRectangle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglePopUpRectangle_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9397F6FBE1C00CD9F23799F44F619316 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968CAC81F263175B89A3B6CF35817BE3 /* TrianglePopUpRectangle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrianglePopUpRectangle-umbrella.h"; sourceTree = "<group>"; };
+		99A056ADC9B1D4DFF5BAE2C206805270 /* Pods-TrianglePopUpRectangle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglePopUpRectangle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A83F6797BF8EF0D5458406D96F2A4A6E /* TrianglePopUpRectangle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrianglePopUpRectangle.xcconfig; sourceTree = "<group>"; };
+		ACB95FE6CDA83AA485E8449235B1B4C0 /* TrianglePopUpRectangle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrianglePopUpRectangle-prefix.pch"; sourceTree = "<group>"; };
+		B499D1D21AE19ABECF74D8135E1E237C /* Pods-TrianglePopUpRectangle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrianglePopUpRectangle_Tests.modulemap"; sourceTree = "<group>"; };
+		BA7AEB61225F2D21003B7907 /* LKTrianglePopUpRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKTrianglePopUpRectangle.h; sourceTree = "<group>"; };
+		BA7AEB62225F2D21003B7907 /* LKTrianglePopUpRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTrianglePopUpRectangle.m; sourceTree = "<group>"; };
+		BA7AEB65225F2D6C003B7907 /* NSString+LKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LKAdd.h"; sourceTree = "<group>"; };
+		BA7AEB66225F2D6C003B7907 /* NSString+LKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LKAdd.m"; sourceTree = "<group>"; };
+		BA7AEB69225F2D9C003B7907 /* UIColor+LKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+LKAdd.h"; sourceTree = "<group>"; };
+		BA7AEB6A225F2D9C003B7907 /* UIColor+LKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LKAdd.m"; sourceTree = "<group>"; };
+		BA7AEB6F225F2FB3003B7907 /* TrianglePopUpRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrianglePopUpRectangle.h; sourceTree = "<group>"; };
+		BBCF6A945BE255F63CFE4F5FB2EF3C3C /* Pods-TrianglePopUpRectangle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrianglePopUpRectangle_Example-umbrella.h"; sourceTree = "<group>"; };
+		BDB643AA1F7F0359B560D2A3A4D6C04F /* Pods-TrianglePopUpRectangle_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrianglePopUpRectangle_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C26B5BFA923A1C4B5E537C1E8C25A817 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2B9CE4879FCAF1AFBD9F61B0E2CD6D1 /* Pods-TrianglePopUpRectangle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrianglePopUpRectangle_Example.modulemap"; sourceTree = "<group>"; };
+		D51E972DB14C86D97F845378E1C977AD /* Pods-TrianglePopUpRectangle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrianglePopUpRectangle_Tests-dummy.m"; sourceTree = "<group>"; };
+		D91B7134C3A69E9B8D32F348CB638F00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD34BEE59A30C2DFAE142124F8CBBF8 /* Pods-TrianglePopUpRectangle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglePopUpRectangle_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA0659127747F43D23D4C5308EF75902 /* Pods-TrianglePopUpRectangle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrianglePopUpRectangle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB55A20A10AC05BD01C2729436979E4D /* Pods-TrianglePopUpRectangle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrianglePopUpRectangle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F405DF5DEAEC8A2A478EF112FCB0E07D /* TrianglePopUpRectangle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrianglePopUpRectangle.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAF5CDA1F0B005CFE3F6CE8ADBF84CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67283A486BE2822EF34315F4BB610CCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673BA365A1A6EB3F5E98DFED22FF920E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC4B489C38F2AF92E9EC62942EED415 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FD6AD3274C581AE84ED3B0DEBA12BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807AE3016CEB26757F1A3A45DBEB80ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2098CFC186F11E02018C8815A41547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75715D897505EA9C7B1D7BAA3E07537A /* Pods_TrianglePopUpRectangle_Example.framework */,
+				0EE7A6152DD2637EEC62E1D332558474 /* Pods_TrianglePopUpRectangle_Tests.framework */,
+				5692E9C95F56FC9889EACC021F32A01C /* TrianglePopUpRectangle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713868073A485C6C3D4C3FBB9B244CD9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE860DCC45FB7BBF8837934EBB521B72 /* TrianglePopUpRectangle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B0FBFE35B181ABE5F522FEB5BBD2A2B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6493F26FCCEEC5CCC5A1D40131935344 /* Info.plist */,
+				F405DF5DEAEC8A2A478EF112FCB0E07D /* TrianglePopUpRectangle.modulemap */,
+				A83F6797BF8EF0D5458406D96F2A4A6E /* TrianglePopUpRectangle.xcconfig */,
+				3BA2DDBF392A34DA38103F58EFA4471D /* TrianglePopUpRectangle-dummy.m */,
+				ACB95FE6CDA83AA485E8449235B1B4C0 /* TrianglePopUpRectangle-prefix.pch */,
+				968CAC81F263175B89A3B6CF35817BE3 /* TrianglePopUpRectangle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TrianglePopUpRectangle";
+			sourceTree = "<group>";
+		};
+		BA7AEB5D225F2CD3003B7907 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA7AEB6F225F2FB3003B7907 /* TrianglePopUpRectangle.h */,
+				BA7AEB61225F2D21003B7907 /* LKTrianglePopUpRectangle.h */,
+				BA7AEB62225F2D21003B7907 /* LKTrianglePopUpRectangle.m */,
+				BA7AEB5E225F2CD3003B7907 /* Category */,
+			);
+			name = Classes;
+			path = TrianglePopUpRectangle/Classes;
+			sourceTree = "<group>";
+		};
+		BA7AEB5E225F2CD3003B7907 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA7AEB65225F2D6C003B7907 /* NSString+LKAdd.h */,
+				BA7AEB66225F2D6C003B7907 /* NSString+LKAdd.m */,
+				BA7AEB69225F2D9C003B7907 /* UIColor+LKAdd.h */,
+				BA7AEB6A225F2D9C003B7907 /* UIColor+LKAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				713868073A485C6C3D4C3FBB9B244CD9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4F2098CFC186F11E02018C8815A41547 /* Products */,
+				D6A059D2B05072B96D8F3668E61A9115 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF90DDC063B747886E3B1635E2941FE /* Pods-TrianglePopUpRectangle_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D91B7134C3A69E9B8D32F348CB638F00 /* Info.plist */,
+				D2B9CE4879FCAF1AFBD9F61B0E2CD6D1 /* Pods-TrianglePopUpRectangle_Example.modulemap */,
+				733D3CAAB38BF46ABBF07DFFE4635F4D /* Pods-TrianglePopUpRectangle_Example-acknowledgements.markdown */,
+				428987424E0B8904652D426879FC1FE2 /* Pods-TrianglePopUpRectangle_Example-acknowledgements.plist */,
+				803F2042308560D04550EA8FD903B88D /* Pods-TrianglePopUpRectangle_Example-dummy.m */,
+				BDB643AA1F7F0359B560D2A3A4D6C04F /* Pods-TrianglePopUpRectangle_Example-frameworks.sh */,
+				0ED5C67E4AC78E60FB018A0A129999E0 /* Pods-TrianglePopUpRectangle_Example-resources.sh */,
+				BBCF6A945BE255F63CFE4F5FB2EF3C3C /* Pods-TrianglePopUpRectangle_Example-umbrella.h */,
+				61B96F73FD6503095C7A89C63055A27C /* Pods-TrianglePopUpRectangle_Example.debug.xcconfig */,
+				DDD34BEE59A30C2DFAE142124F8CBBF8 /* Pods-TrianglePopUpRectangle_Example.release.xcconfig */,
+			);
+			name = "Pods-TrianglePopUpRectangle_Example";
+			path = "Target Support Files/Pods-TrianglePopUpRectangle_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A059D2B05072B96D8F3668E61A9115 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF90DDC063B747886E3B1635E2941FE /* Pods-TrianglePopUpRectangle_Example */,
+				E80F9DC31B9B1F5ECA0E5EA635E74221 /* Pods-TrianglePopUpRectangle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0FF6F8F6CDA6E85BB0E85D435AE9CB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4A41976EB782A4F26723E8BDA5869615 /* LICENSE */,
+				C26B5BFA923A1C4B5E537C1E8C25A817 /* README.md */,
+				1DCCBF01A2C4C00C77E09FCD73122B3A /* TrianglePopUpRectangle.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E80F9DC31B9B1F5ECA0E5EA635E74221 /* Pods-TrianglePopUpRectangle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9397F6FBE1C00CD9F23799F44F619316 /* Info.plist */,
+				B499D1D21AE19ABECF74D8135E1E237C /* Pods-TrianglePopUpRectangle_Tests.modulemap */,
+				EA0659127747F43D23D4C5308EF75902 /* Pods-TrianglePopUpRectangle_Tests-acknowledgements.markdown */,
+				8633287F370E4344E56B4555EAB21B27 /* Pods-TrianglePopUpRectangle_Tests-acknowledgements.plist */,
+				D51E972DB14C86D97F845378E1C977AD /* Pods-TrianglePopUpRectangle_Tests-dummy.m */,
+				89CCDC344B657E9A0BDC74CE3AA37613 /* Pods-TrianglePopUpRectangle_Tests-frameworks.sh */,
+				6A8FBF2F3E041CEFDEA41359B22F841D /* Pods-TrianglePopUpRectangle_Tests-resources.sh */,
+				5D7C936427C41B81AE21375A773C2A5C /* Pods-TrianglePopUpRectangle_Tests-umbrella.h */,
+				99A056ADC9B1D4DFF5BAE2C206805270 /* Pods-TrianglePopUpRectangle_Tests.debug.xcconfig */,
+				EB55A20A10AC05BD01C2729436979E4D /* Pods-TrianglePopUpRectangle_Tests.release.xcconfig */,
+			);
+			name = "Pods-TrianglePopUpRectangle_Tests";
+			path = "Target Support Files/Pods-TrianglePopUpRectangle_Tests";
+			sourceTree = "<group>";
+		};
+		EE860DCC45FB7BBF8837934EBB521B72 /* TrianglePopUpRectangle */ = {
+			isa = PBXGroup;
+			children = (
+				BA7AEB5D225F2CD3003B7907 /* Classes */,
+				E0FF6F8F6CDA6E85BB0E85D435AE9CB0 /* Pod */,
+				B0FBFE35B181ABE5F522FEB5BBD2A2B5 /* Support Files */,
+			);
+			name = TrianglePopUpRectangle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16F24308B32E2DB5028F8BBA0A01A009 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA7AEB63225F2D21003B7907 /* LKTrianglePopUpRectangle.h in Headers */,
+				BA7AEB70225F2FD1003B7907 /* TrianglePopUpRectangle.h in Headers */,
+				BA7AEB6B225F2D9C003B7907 /* UIColor+LKAdd.h in Headers */,
+				BA7AEB67225F2D6C003B7907 /* NSString+LKAdd.h in Headers */,
+				1C509FCB077AA39775E00C5534C442FE /* TrianglePopUpRectangle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3522E35EC0D7C90A11706686521272CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6D88BFC036B9C71A19EB8188FDBE7 /* Pods-TrianglePopUpRectangle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5CCD1DC9AA4343842C8179A613D3951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFC08A0A29B59465CC1B3B3972D5103 /* Pods-TrianglePopUpRectangle_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15E2B3D7B4E6784B182D3A703C541B47 /* Pods-TrianglePopUpRectangle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16FF2B4440C587FF1455A3C1D5EFCB6 /* Build configuration list for PBXNativeTarget "Pods-TrianglePopUpRectangle_Tests" */;
+			buildPhases = (
+				3522E35EC0D7C90A11706686521272CD /* Headers */,
+				190E6042056AC7C1506EE1E00800C000 /* Sources */,
+				673BA365A1A6EB3F5E98DFED22FF920E /* Frameworks */,
+				815507F1B6EAB9C144EFB347CEE20DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29504AA7E931249A5CEBA19C273F447F /* PBXTargetDependency */,
+			);
+			name = "Pods-TrianglePopUpRectangle_Tests";
+			productName = "Pods-TrianglePopUpRectangle_Tests";
+			productReference = 0EE7A6152DD2637EEC62E1D332558474 /* Pods_TrianglePopUpRectangle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		808AFE9CAF6FEF8A11A9303364E3F6FB /* Pods-TrianglePopUpRectangle_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BC10974E9653D3056CEF41F6017601 /* Build configuration list for PBXNativeTarget "Pods-TrianglePopUpRectangle_Example" */;
+			buildPhases = (
+				E5CCD1DC9AA4343842C8179A613D3951 /* Headers */,
+				56D6AEF5908C0F457A23647E76B723BF /* Sources */,
+				E3FD6AD3274C581AE84ED3B0DEBA12BD /* Frameworks */,
+				2675BB0862B0EFB7A8801364CAB4B1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701CA1AFCA620A8FDE71007D5EFD3FC7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrianglePopUpRectangle_Example";
+			productName = "Pods-TrianglePopUpRectangle_Example";
+			productReference = 75715D897505EA9C7B1D7BAA3E07537A /* Pods_TrianglePopUpRectangle_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8991FC04793280651ADE2CF20B83DB28 /* TrianglePopUpRectangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687A7E08B0AB9CD1A0DDB80A4514CB60 /* Build configuration list for PBXNativeTarget "TrianglePopUpRectangle" */;
+			buildPhases = (
+				16F24308B32E2DB5028F8BBA0A01A009 /* Headers */,
+				46C23B10D3F3B8ACCE67A909315893E8 /* Sources */,
+				4CAF5CDA1F0B005CFE3F6CE8ADBF84CE /* Frameworks */,
+				7DCD4AA30F07CA129F7908963A7958CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrianglePopUpRectangle;
+			productName = TrianglePopUpRectangle;
+			productReference = 5692E9C95F56FC9889EACC021F32A01C /* TrianglePopUpRectangle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4F2098CFC186F11E02018C8815A41547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808AFE9CAF6FEF8A11A9303364E3F6FB /* Pods-TrianglePopUpRectangle_Example */,
+				15E2B3D7B4E6784B182D3A703C541B47 /* Pods-TrianglePopUpRectangle_Tests */,
+				8991FC04793280651ADE2CF20B83DB28 /* TrianglePopUpRectangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2675BB0862B0EFB7A8801364CAB4B1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCD4AA30F07CA129F7908963A7958CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815507F1B6EAB9C144EFB347CEE20DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190E6042056AC7C1506EE1E00800C000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FB873AE1AEC4BA85A79DF2C33F5E1 /* Pods-TrianglePopUpRectangle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C23B10D3F3B8ACCE67A909315893E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D60FD15E975A5CFB9CED331BCCE94 /* TrianglePopUpRectangle-dummy.m in Sources */,
+				BA7AEB64225F2D21003B7907 /* LKTrianglePopUpRectangle.m in Sources */,
+				BA7AEB6C225F2D9C003B7907 /* UIColor+LKAdd.m in Sources */,
+				BA7AEB68225F2D6C003B7907 /* NSString+LKAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D6AEF5908C0F457A23647E76B723BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F122513C749230A66C202B26B11E9DE /* Pods-TrianglePopUpRectangle_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29504AA7E931249A5CEBA19C273F447F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TrianglePopUpRectangle_Example";
+			target = 808AFE9CAF6FEF8A11A9303364E3F6FB /* Pods-TrianglePopUpRectangle_Example */;
+			targetProxy = 9066F906A14E9ACB08D503F48DE3C6A2 /* PBXContainerItemProxy */;
+		};
+		701CA1AFCA620A8FDE71007D5EFD3FC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrianglePopUpRectangle;
+			target = 8991FC04793280651ADE2CF20B83DB28 /* TrianglePopUpRectangle */;
+			targetProxy = 24D540EB9C9AF9AE4D27C1D59B469C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C51806F9846181C1230C48309F50EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B96F73FD6503095C7A89C63055A27C /* Pods-TrianglePopUpRectangle_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Example/Pods-TrianglePopUpRectangle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7CBF3508427D178036D2ADBFF8241198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB55A20A10AC05BD01C2729436979E4D /* Pods-TrianglePopUpRectangle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Tests/Pods-TrianglePopUpRectangle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8113A3DBCB1DA34C5C15B32380FE5FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83F6797BF8EF0D5458406D96F2A4A6E /* TrianglePopUpRectangle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrianglePopUpRectangle/TrianglePopUpRectangle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrianglePopUpRectangle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrianglePopUpRectangle/TrianglePopUpRectangle.modulemap";
+				PRODUCT_MODULE_NAME = TrianglePopUpRectangle;
+				PRODUCT_NAME = TrianglePopUpRectangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98A00406551C02D66A1846914045A4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD34BEE59A30C2DFAE142124F8CBBF8 /* Pods-TrianglePopUpRectangle_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Example/Pods-TrianglePopUpRectangle_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D0BAA1BAC2AA0298D0B1A2EC0B8F5F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A056ADC9B1D4DFF5BAE2C206805270 /* Pods-TrianglePopUpRectangle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrianglePopUpRectangle_Tests/Pods-TrianglePopUpRectangle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2D3934B4F87C4A3ED5A6E4D98F84A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83F6797BF8EF0D5458406D96F2A4A6E /* TrianglePopUpRectangle.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrianglePopUpRectangle/TrianglePopUpRectangle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrianglePopUpRectangle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrianglePopUpRectangle/TrianglePopUpRectangle.modulemap";
+				PRODUCT_MODULE_NAME = TrianglePopUpRectangle;
+				PRODUCT_NAME = TrianglePopUpRectangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64E2C722A3EAD054D380F489370F012 /* Debug */,
+				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687A7E08B0AB9CD1A0DDB80A4514CB60 /* Build configuration list for PBXNativeTarget "TrianglePopUpRectangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D3934B4F87C4A3ED5A6E4D98F84A09 /* Debug */,
+				8113A3DBCB1DA34C5C15B32380FE5FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BC10974E9653D3056CEF41F6017601 /* Build configuration list for PBXNativeTarget "Pods-TrianglePopUpRectangle_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C51806F9846181C1230C48309F50EA8 /* Debug */,
+				98A00406551C02D66A1846914045A4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16FF2B4440C587FF1455A3C1D5EFCB6 /* Build configuration list for PBXNativeTarget "Pods-TrianglePopUpRectangle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BAA1BAC2AA0298D0B1A2EC0B8F5F72 /* Debug */,
+				7CBF3508427D178036D2ADBFF8241198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

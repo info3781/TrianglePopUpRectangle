@@ -1,0 +1,16 @@
+PODS:
+  - TrianglePopUpRectangle (0.1.0)
+
+DEPENDENCIES:
+  - TrianglePopUpRectangle (from `../`)
+
+EXTERNAL SOURCES:
+  TrianglePopUpRectangle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrianglePopUpRectangle: aa490dc81872df5620da136311aec35c88d0506b
+
+PODFILE CHECKSUM: 1a6216e97bc498c92beca7dda8a197dbe98ba3a5
+
+COCOAPODS: 1.5.3
