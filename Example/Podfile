@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TrianglePopUpRectangle_Example' do
+  pod 'TrianglePopUpRectangle', :path => '../'
+
+  target 'TrianglePopUpRectangle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
